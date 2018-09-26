@@ -13,7 +13,9 @@ layout: default
     {% endif %}
   </small>
 </time>
-
+{% if page.image %}
+            <img src="/assets/img/uploads/{{ page.image }}" class="img-responsive img-centered" alt="{{ page.image_alt }}">
+{% endif %}
 {% include page-intro.html %}
 
 {{ content }}
