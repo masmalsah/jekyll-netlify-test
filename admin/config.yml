@@ -23,8 +23,9 @@ collections: # A list of collections the CMS should be able to edit
         options:
           - { label: "Sam Haslam", value: "sam_haslam" }
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:MM:SS"}
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Image Alt Tag", name: "image_alt", widget: "markdown", required: false}
+      - {label: "Image", name: "image", widget: "image", required: false, create: true}
+      - {label: "Alt Text", name: "image_alt", widget: "string", required: false}
+      - {label: "YouTube ID", name: "youtubeId", widget: "string", required: false}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
       - {label: "Categories", name: "categories", widget: "string", required: false}
