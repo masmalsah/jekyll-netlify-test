@@ -1,5 +1,7 @@
 ---
 layout: post
 title: My New Post
-date: 2018-09-25 20:17 -0700
+author: sam_haslam
+date: '2018-09-05 00:09:00'
 ---
+
